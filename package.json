@@ -1,0 +1,18 @@
+{
+  "name": "hintster",
+  "version": "0.0.1",
+  "description": "A HTML report generator for jshint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jshint",
+    "jade",
+    "reporter",
+    "report",
+    "html"
+  ],
+  "author": "Donald Jones <donald@birminghamdeveloper.com>",
+  "license": "ISC"
+}
