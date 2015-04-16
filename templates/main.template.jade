@@ -1,0 +1,27 @@
+﻿doctype html
+html(lang="en")
+	head
+		title jshint HTML Report
+		link(href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css", rel="stylesheet")
+		link(href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
+		link(href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/paper/bootstrap.min.css", rel="stylesheet")
+	body
+		div.container
+			div.jumbotron
+				h1 jshint Report
+			div.container
+				div.panel.panel-default
+					div.panel-heading
+						span.h4 
+							i.fa.fa-bar-chart&nbsp;&nbsp;
+						span.h4 General Stats
+					div.panel-body
+						span Number of Errors:
+						if (length > 0)
+							span.pull-right #{length}
+						else
+							span.pull-right 0 (Good job!)
+						
+	script( src='https://code.jquery.com/jquery-2.1.3.min.js' )
+	script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")
+	script(src="hightlight.js")

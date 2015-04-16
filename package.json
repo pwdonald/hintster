@@ -2,7 +2,7 @@
   "name": "hintster",
   "version": "0.0.1",
   "description": "A HTML report generator for jshint.",
-  "main": "index.js",
+  "main": "hintster.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,14 @@
     "html"
   ],
   "author": "Donald Jones <donald@birminghamdeveloper.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "highlight.js": "^8.5.0",
+    "jade": "^1.9.2",
+    "jshint": "^2.7.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.4",
+    "jquery": "^2.1.3"
+  }
 }
